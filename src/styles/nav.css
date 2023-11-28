@@ -1,10 +1,24 @@
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 32px auto 0;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(151, 151, 151, .2);
 }
 
 .nav-list {
     display: flex;
+    gap: 34px;
+}
+
+.nav-list li {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px; /* 192.308% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .nav-logo {
