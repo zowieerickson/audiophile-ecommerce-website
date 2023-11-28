@@ -69,3 +69,8 @@ input, button, textarea, select {
   isolation: isolate;
 }
 /* End of CSS Reset */
+
+.placeholder-message {
+  text-align: center;
+  margin-top: 5em;
+}

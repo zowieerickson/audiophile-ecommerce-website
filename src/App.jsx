@@ -9,8 +9,10 @@ function App() {
   return (
     <>
         <Nav/>
-        <h1>Hello, world!</h1>
-        <sub>Introducing Audiophile E-commerce</sub>
+        <div className="placeholder-message">
+          <h1>Hello, world!</h1>
+          <sub>Introducing Audiophile E-commerce</sub>
+        </div>
     </>
   )
 }
