@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-logo {
+    display: block;
+    background-image: url("../assets/shared/desktop/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 143px 25px;
+    width: 143px;
+    height: 25px
+}
+
+.cart-icon {
+    display: block;
+    background-image: url("../assets/shared/desktop/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-size: 23px 20px;
+    width: 23px;
+    height: 20px;
+}
