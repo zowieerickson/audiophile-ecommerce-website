@@ -4,22 +4,22 @@ import '../styles/nav.css'
 export default function Nav() {
     return (
         <nav className="nav">
-            <span className="nav-logo"></span>
+            <a href="/"><span className="nav-logo"></span></a>
             <ul className="nav-list">
                 <li>
-                    <a href="">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="">Headphones</a>
+                    <a href={`/headphones/`}>Headphones</a>
                 </li>
                 <li>
-                    <a href="">Speakers</a>
+                    <a href={`/speakers/`}>Speakers</a>
                 </li>
                 <li>
-                    <a href="">Earphones</a>
+                    <a href={`/earphones/`}>Earphones</a>
                 </li>
             </ul>
-            <span className="cart-icon"></span>
+            <a href={`/cart/`}><span className="cart-icon"></span></a>
         </nav>
     )
 }
