@@ -5,13 +5,15 @@ nav {
     max-width: 1110px;
     margin: 32px auto 0;
     padding-bottom: 32px;
+}
+
+.nav {
     border-bottom: 1px solid rgba(151, 151, 151, .2);
 }
 
 .nav-list {
     display: flex;
     gap: 34px;
-    padding: 0;
 }
 
 .nav-list li {

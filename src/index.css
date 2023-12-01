@@ -56,6 +56,10 @@ button:focus-visible {
   margin: 0;
 }
 
+ul {
+  padding: 0;
+}
+
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
@@ -68,6 +72,7 @@ input, button, textarea, select {
 #root, #__next {
   isolation: isolate;
 }
+
 /* End of CSS Reset */
 
 .placeholder-message {
