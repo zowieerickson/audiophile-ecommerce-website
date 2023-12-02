@@ -24,6 +24,10 @@
     gap: 16px;
 }
 
+.socials-list li:hover svg path{
+    fill: #D87D4A;
+}
+
 .footer-legal-copyright {
     margin-top: 56px;
 }
