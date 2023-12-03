@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #FFF;
-  background-color: #242424;
+  background-color: #0E0E0E;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,6 +47,39 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.section {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; /* 103.571% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-copy {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.75;
+}
+
+.eyebrow {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.4964;
+}
+
 /* CSS Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -60,10 +93,7 @@ ul {
   padding: 0;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
+/*  */
 
 input, button, textarea, select {
   font: inherit;
