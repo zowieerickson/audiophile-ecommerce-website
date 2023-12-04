@@ -80,6 +80,24 @@ button:focus-visible {
   opacity: 0.4964;
 }
 
+.button {
+  color: #fff;
+  background: #D87D4A;
+  padding: 1em 2em;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: #FBAF85;
+  color: #fff
+}
+
 /* CSS Reset */
 *, *::before, *::after {
   box-sizing: border-box;
