@@ -1,7 +1,7 @@
-import '../styles/footer.css';
-import FacebookLogo from '../assets/shared/desktop/icon-facebook.svg?react';
-import TwitterLogo from '../assets/shared/desktop/icon-twitter.svg?react';
-import InstagramLogo from '../assets/shared/desktop/icon-instagram.svg?react';
+import '../../styles/footer.css';
+import FacebookLogo from '../../assets/shared/desktop/icon-facebook.svg?react';
+import TwitterLogo from '../../assets/shared/desktop/icon-twitter.svg?react';
+import InstagramLogo from '../../assets/shared/desktop/icon-instagram.svg?react';
 
 export default function Footer() {
     return (

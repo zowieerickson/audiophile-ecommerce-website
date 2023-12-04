@@ -1,4 +1,4 @@
-import '../styles/hero.css';
+import '../../styles/hero.css';
 
 // Option #1, separate image from copy
 

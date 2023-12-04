@@ -1,8 +1,8 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
-import Hero from './components/Hero'
+import Nav from './components/shared/Nav'
+import Footer from './components/shared/Footer'
+import Hero from './components/home/Hero'
 import './App.css'
 
 function App() {
