@@ -1,0 +1,46 @@
+.buystrip-section {
+    background-color: #fff;
+}
+
+.buystrip {
+    display: flex;
+    justify-content: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 30px;
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+
+.buystrip-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background: #F1F1F1;
+    color: #000;
+}
+
+.buystrip-item img {
+    position: relative;
+    bottom: 30px;
+    width: 35%;
+}
+
+.buystrip-item-copy {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buystrip-item-title {
+    margin-bottom: 15px;
+}
+
+.buystrip-item-cta {
+}
+
+/* .headphones {
+    background-image: url("../../../src/assets/shared/desktop/image-category-thumbnail-headphones.png");
+} */
